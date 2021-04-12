@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+
+.paragraph{
+    text-align: left;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    
+    
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.tittle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+    
+}
+
+.fila{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.btn{
+    background-color: transparent;
+    border: 1px solid #dc143c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 110px;
+    font-size: 14px;
+}
+
+.logos{
+    width: 70px;
+}
+
+.box{
+    width: 225px;
+}
+.box2{
+    width: 230px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bigIcons{
+    color:#dc143c;
+}
+
+.divider{
+	position: relative;
+	height: 1px;
+    margin: 0px 10px ;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(158, 158, 158), transparent);
+}
+.subTittle{
+    margin: 10px 0px;
+}
+
+.cbar{
+    width: 100%;
+    background-color: grey;
+    height: 10px;
+    border-radius: 5px;
+}
+.pbar{
+   
+    background-color: #dc143c;
+    height: 10px;
+    border-radius: 5px;
+}
+.Progbars{
+    margin-bottom: 5px;
+}
+
+.container-resume{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

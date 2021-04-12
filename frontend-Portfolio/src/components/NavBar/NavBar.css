@@ -1,0 +1,77 @@
+
+
+*{
+    margin: 0px ;
+    padding: 0px ;
+    
+}
+
+.NavLink{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    display: flex;
+    flex-direction: column; 
+}
+.NavLink:hover{
+    text-decoration: none;
+    list-style: none;
+   
+    display: flex;
+    flex-direction: column; 
+   
+}
+.selected{
+    color: #dc143c;
+    
+}
+
+.NavBar{
+    height: auto;
+    background-color: white;
+    
+    width: auto;
+    border-radius: 5px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+li{
+    margin: 10px 15px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+
+.app-movile{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.NavBar-movile{
+    height: auto;
+    background-color: white;
+    
+    width: 100%;
+    border-radius: 5px;
+}
+.NavBar-movile ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}

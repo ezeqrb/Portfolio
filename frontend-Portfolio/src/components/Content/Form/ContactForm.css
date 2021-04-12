@@ -1,0 +1,66 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.contact-form-text{
+    margin-bottom: 10px;
+    font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+    color: #dc143c;
+}
+.name-input{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.message-input{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+.input-form1{
+    
+    width: 100%;
+    border: 1px rgb(218, 218, 218) solid;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 45px;
+    padding-left: 5px;
+}
+.input-form2{
+    
+    width: 99%;
+    border: 1px rgb(218, 218, 218) solid;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 90px;
+    padding-left: 5px;
+}
+
+#submit{
+    height: 40px;
+    width: 50%;
+    margin-top: 15px;
+    
+}
+
+#submit:hover{
+    width: 50%;
+    height: 40px;
+    margin-top: 15px;
+    background-color: #ad0526;
+    
+}
+
+
+.third-input{
+    width: 100%;
+}
